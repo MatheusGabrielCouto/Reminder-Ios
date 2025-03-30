@@ -11,9 +11,9 @@ Este é um aplicativo para auxiliar no controle e gerenciamento de medicamentos,
 
 ## 🛠 Tecnologias Utilizadas
 
-- Swift / SwiftUI (ou UIKit)
-- CoreData ou Firebase (para armazenamento de dados)
+- Swift / UIKit
+- Firebase (para armazenamento de dados)
 - Local Notifications (para alertas)
-- HealthKit (opcional, para integração com dados de saúde)
+- HealthKit
 
 ## 📦 Instalação
