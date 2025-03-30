@@ -1,0 +1,11 @@
+# Ignorar a pasta Pods
+Pods/
+
+# Ignorar arquivos gerados pelo CocoaPods
+Podfile.lock
+.podspec
+
+# Ignorar configurações do Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
