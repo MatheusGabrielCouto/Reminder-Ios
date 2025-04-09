@@ -1,11 +1,63 @@
-# Ignorar a pasta Pods
-Pods/
-
-# Ignorar arquivos gerados pelo CocoaPods
-Podfile.lock
-.podspec
-
-# Ignorar configurações do Xcode
+# Xcode
+#
+build/
+DerivedData/
 *.xcworkspace
-*.xcuserstate
+xcuserdata/
 *.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+#
+.build/
+Packages/
+.swiftpm/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio
+#
+Dependencies/
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Patch
+#
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+
+# Other
+#
+*.moved-aside
+*.swp
+*.lock
+*.xcuserstate
+*.idea/
+.DS_Store
+.env
+*.orig
+
+# Firebase
+GoogleService-Info.plist
+
+# SwiftPM binary artifacts
+.artifacts/
+
+# XCFrameworks
+*.xcframework
