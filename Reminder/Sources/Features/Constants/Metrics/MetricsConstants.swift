@@ -9,12 +9,15 @@ import Foundation
 import UIKit
 
 public struct Metrics {
-  public static let huge: CGFloat = 48
-  public static let medium: CGFloat = 24
-  public static let small: CGFloat = 12
-  public static let tiny: CGFloat = 8
-  public static let little: CGFloat = 4
-  
-  public static let buttonSize: CGFloat = 56
-  public static let inputSize: CGFloat = 56
+  public static var huge: CGFloat = 48
+  public static var high: CGFloat = 32
+  public static var medium: CGFloat = 24
+  public static var medier: CGFloat = 16
+  public static var small: CGFloat = 12
+  public static var little: CGFloat = 8
+  public static var tiny: CGFloat = 4
+  public static var buttonSize: CGFloat = 56
+  public static var inputSize: CGFloat = 56
+  public static var profileImageSize: CGFloat = 68
+  public static var backgroundProfileSize: CGFloat = 160
 }

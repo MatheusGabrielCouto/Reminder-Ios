@@ -15,7 +15,8 @@
 "login.button.title" = "Entrar";
 
 /* MARK: - Home Screen */
-
+"home.welcome.label" = "Boas Vindas";
+"home.feedback.button.title" = "Avaliar";
 /* MARK: - Receipts Screen */
 
 /* MARK: - NewReceipt Screen */
